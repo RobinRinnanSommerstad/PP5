@@ -13,7 +13,7 @@ namespace PP5
             Console.WriteLine("Hvor lange skal sidene være?");
             var input = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("Hva vil du at Trekanten skal hete?");
+            Console.WriteLine("Hva vil du at Kvadratet skal hete?");
             var input1 = Console.ReadLine();
 
             return new Square(input, input1);
@@ -58,7 +58,7 @@ namespace PP5
             Console.WriteLine("Hvor lange skal høyden være?");
             var input1 = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("Hva vil du at Trekanten skal hete?");
+            Console.WriteLine("Hva vil du at Rektangelen skal hete?");
             var input2 = Console.ReadLine();
 
             return new Rectangle(input, input1, input2);
